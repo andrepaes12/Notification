@@ -1,0 +1,24 @@
+{
+    "name": "aluis/notification",
+    "description": "This is a library that uses composer as the basis for genarating email notifications",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DevAP",
+            "email": "admin@musashi-am.online"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "phpmailer/phpmailer": "6.1.4"
+    },
+    "config": {
+        "vendor-dir": "lib_ext"
+    },
+    "autoload":{
+        "psr-4": {
+            "Notification\\":"_app"
+        }
+    }
+}
